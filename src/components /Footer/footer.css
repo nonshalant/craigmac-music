@@ -1,0 +1,12 @@
+.footer-container {
+    background-color: rgb(7, 7, 7);
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
