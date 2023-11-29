@@ -84,7 +84,48 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .music-main {
+        gap: 40px;
+    }
+
     .music-image img {
         width: 100%;
+    }
+    
+    .inner-section-one {
+        gap: 0; 
+        flex-direction: column-reverse;
+    }
+
+    .inner-left {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 10%;
+    }
+
+    .inner-left-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .section-one-content {
+        margin-top: 4%;
+    }
+    .section-one-content-flex {
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;
+        gap: 20px;
+        padding: 5%;
+    }
+
+    .song-details {
+        flex-direction: column;
+        display: ;
+    }
+    
+    .song-details img {
+        height: 150px;
     }
 }

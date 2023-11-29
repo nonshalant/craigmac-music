@@ -27,7 +27,10 @@ const Music = () => {
         <div className='music-main'>
             <div className="inner-section-one">
                 <div className="inner-left">
-                    <h2>Popular Album</h2>
+                    <div className='inner-left-title'>
+                        <h2>Popular Album</h2>
+                        <h2>{craigMacContent.music.songs.map(song => song.title === 'Heart Break City' && song.title)}</h2>
+                    </div>
                     {
                         craigMacContent.music.songs.map( song => song.title === 'Til I Get Home' && 
                             <div onClick={()=>openModal(song.url)}>
