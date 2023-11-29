@@ -41,7 +41,6 @@ export const craigMacContent = {
                 id: 6,
                 thumbNail: 'https://res.cloudinary.com/dyzydm9nl/image/upload/v1701110200/craig%20mac/Screen_Shot_2023-11-27_at_1.31.46_PM_sldhjp.png',
                 title: 'Other Side ',
-                features: 'Ft Kv Ap',
                 category: 'single',
                 url: "https://embed.music.apple.com/us/album/other-side/1710918896?i=1710918899"
             },

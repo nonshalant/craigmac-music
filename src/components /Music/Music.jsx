@@ -75,7 +75,7 @@ const Music = () => {
                 </div>
             </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }

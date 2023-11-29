@@ -12,6 +12,7 @@ import { Image } from 'cloudinary-react';
 import { craigMacContent } from '../content';
 import { useMediaQuery } from 'react-responsive';
 import { FaWindowClose } from "react-icons/fa";
+import Footer from '../Footer/Footer';
 
 const Header = () => {
     const image = craigMacContent.header.url;
@@ -71,7 +72,9 @@ const Header = () => {
                         <a href="https://www.instagram.com/craigmacofficial__/" target='_blank'><FaInstagramSquare /></a>
                         <FaEnvelope />
                     </ul>
+                    <Footer />
                 </nav>
+                
             </>
         :
         <nav className='nav-bar'>
