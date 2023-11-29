@@ -41,18 +41,10 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-    .media {
-        width: 100%;
-        font-size: 2.5rem;
-        justify-content: space-between;
-        padding: 1.6%;
+    header {
+        position: relative;
     }
-
-    .mobile-nav-top {
-        position: sticky;
-        top: 0;
-    }
-
+    
     .logo {
         display: flex;
         justify-content: space-between;
@@ -60,7 +52,7 @@ header {
         padding: 2%;
         background-color: black;
     }
-
+    
     .nav-bar {
         position: fixed;
         bottom: 0;
@@ -68,6 +60,11 @@ header {
         background-color: black;
     }
 
+    .media {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    
     .nav-links {
         position: fixed;
         top: 0;
