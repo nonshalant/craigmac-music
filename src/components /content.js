@@ -31,18 +31,18 @@ export const craigMacContent = {
                 url: "https://embed.music.apple.com/us/album/temptations-feat-cwizz/1657580949?i=1657581258"
             },
             {
-                id: 4,
-                thumbNail: "https://res.cloudinary.com/dyzydm9nl/image/upload/v1701109075/craig%20mac/Screen_Shot_2023-11-27_at_1.17.38_PM_kue5z1.png",
-                title: 'We Dont Talk',
-                category: 'single',
-                url: "https://embed.music.apple.com/us/album/we-dont-talk/1657580949?i=1657580955"
-            },
-            {
                 id: 6,
                 thumbNail: 'https://res.cloudinary.com/dyzydm9nl/image/upload/v1701110200/craig%20mac/Screen_Shot_2023-11-27_at_1.31.46_PM_sldhjp.png',
                 title: 'Other Side ',
                 category: 'single',
                 url: "https://embed.music.apple.com/us/album/other-side/1710918896?i=1710918899"
+            },
+            {
+                id: 4,
+                thumbNail: "https://res.cloudinary.com/dyzydm9nl/image/upload/v1701109075/craig%20mac/Screen_Shot_2023-11-27_at_1.17.38_PM_kue5z1.png",
+                title: 'We Dont Talk',
+                category: 'single',
+                url: "https://embed.music.apple.com/us/album/we-dont-talk/1657580949?i=1657580955"
             },
             {
                 id: 7,
