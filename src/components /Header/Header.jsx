@@ -86,12 +86,12 @@ const Header = () => {
                     <Link to='/videos'>
                         <li>Videos</li>
                     </Link>
-                    <Link to='/merch'> 
+                    {/* <Link to='/merch'> 
                         <li>Merch</li>
                     </Link>
                     <Link to='news'>
                         <li>News</li>
-                    </Link>
+                    </Link> */}
                 </ul>
                 <div className="logo">
                     <Image className="logoBg" cloudName="dyzydm9nl" publicId="craig%20mac/IMG_6667_d0uie2.jpg" ></Image>
