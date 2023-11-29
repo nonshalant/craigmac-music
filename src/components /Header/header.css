@@ -41,25 +41,45 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-    header {
-        position: fixed;
-        bottom: 0px;
-        width: 100%;
-    }
     .media {
         width: 100%;
         font-size: 2.5rem;
         justify-content: space-between;
         padding: 1.6%;
     }
-    .logo {
-        position: fixed;
+
+    .mobile-nav-top {
+        position: sticky;
         top: 0;
-        width: 100%;
+    }
+
+    .logo {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 2%;
+        background-color: black;
     }
 
+    .nav-bar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        height: 20%;
+        z-index: 1;
+        width: 100%;
+        padding: 2%;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 2rem;
+    }
 }
