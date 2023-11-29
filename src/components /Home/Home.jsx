@@ -21,7 +21,6 @@ const Home = () => {
                         <video className='video' width='100000' muted autoPlay loop>
                             <source src={video} type="video/mp4"></source>
                         </video>  
-                        <Footer />
                     </>
             }   
         </div>

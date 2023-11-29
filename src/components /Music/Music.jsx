@@ -3,6 +3,7 @@ import { craigMacContent } from '../content'
 import { Image } from 'cloudinary-react'
 import './music.css'
 import Modal from './Modal'
+import Footer from '../Footer/Footer'
 
 const Music = () => {
     const cloudName='dyzydm9nl';
@@ -14,7 +15,7 @@ const Music = () => {
 
     const closeModal = () => {
         setModalOpen(false)
-    }
+    } 
 
   return (
     <div className='music'>

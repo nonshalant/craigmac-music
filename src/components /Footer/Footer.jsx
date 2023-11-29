@@ -17,7 +17,9 @@ const Footer = () => {
         <div className="footer-container">
             <a href='https://www.everlastingapps.com' target='_blank' rel="noreferrer">Website by <span>@Ever Lasting Apps</span></a>
             {
-              isMobile || isTablet &&
+              isMobile || isTablet ?
+              undefined
+              :
                 <div className="footer-links">
                   <FaEnvelope />
                   <a href="https://music.apple.com/us/artist/craigmac/1507596398" target='_blank' rel="noreferrer" ><FaMusic/></a>

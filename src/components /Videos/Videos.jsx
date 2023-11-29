@@ -10,6 +10,7 @@ const Videos = () => {
     const [modalOpen, setModalOpen] = useState(false);
     const cloudName = "dyzydm9nl"
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+    const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1023px)' });
     
     const openModal = (selectedThumbNail) => {
         setModalOpen(selectedThumbNail)
@@ -32,10 +33,6 @@ const Videos = () => {
             }
             {modalOpen && <Modal closeModal={closeModal} selectedThumbNail={modalOpen}/>}
         </div>
-        {
-            isMobile ?
-            undefined : <Footer />
-        }
     </div>
   )
 }
