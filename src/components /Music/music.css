@@ -138,6 +138,8 @@
 
     .albums-container {
         margin-bottom: 4%;
+        overflow-x: scroll;
+        gap: 15px;
     }
 
     .larger {
