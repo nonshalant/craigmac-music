@@ -85,7 +85,7 @@
 
 @media only screen and (max-width: 600px) {
     .music-main {
-        gap: 40px;
+        gap: 10px;
     }
 
     .music-image img {
@@ -101,14 +101,14 @@
         display: flex;
         flex-direction: row-reverse;
         margin-top: 10%;
-        justify-content: space-evenly;
-        gap: 20px;
+        justify-content: space-between;
+        padding-right: 7%;
     }
 
     .inner-left-title {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         gap: 20px;
     }
 
@@ -119,12 +119,13 @@
     .section-one-content-flex {
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-        padding: 5%;
+        padding-top: 2%;
     }
 
     .section-one-content h2 {
         text-align: start;
         margin-left: 4%;
+        margin-top: 4%;
         font-size: larger;
     }
     
