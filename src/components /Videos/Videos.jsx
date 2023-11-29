@@ -4,10 +4,12 @@ import { Image } from 'cloudinary-react'
 import Modal from './Modal'
 import { craigMacContent } from '../content' 
 import Footer from '../Footer/Footer'
+import { useMediaQuery } from 'react-responsive'
 
 const Videos = () => {
     const [modalOpen, setModalOpen] = useState(false);
     const cloudName = "dyzydm9nl"
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
     
     const openModal = (selectedThumbNail) => {
         setModalOpen(selectedThumbNail)
@@ -30,7 +32,10 @@ const Videos = () => {
             }
             {modalOpen && <Modal closeModal={closeModal} selectedThumbNail={modalOpen}/>}
         </div>
-        <Footer />
+        {
+            isMobile ?
+            undefined : <Footer />
+        }
     </div>
   )
 }

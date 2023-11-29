@@ -1,24 +1,26 @@
 import React from 'react'
 import './home.css'
 import { craigMacContent } from '../content'
-import { MediaQuery, useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from 'react-responsive';
 import Footer from '../Footer/Footer';
 
 const Home = () => {
     const video = craigMacContent.homePageGif.url;
-    const isMobile = useMediaQuery({ maxWidth: 767 });
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
 
     return (
         <div className='home-gif'>
             {
-                isMobile &&
+                isMobile ?
                     <video className='video' width='500vw' height='700vh' muted autoPlay playsInLine loop>
                         <source src={video} type="video/mp4"></source>
                     </video> 
-            }   
-             {/* <video className='video' width='100000' muted autoPlay loop>
+                    :  
+                    <video className='video' width='100000' muted autoPlay loop>
                         <source src={video} type="video/mp4"></source>
-                    </video>  */}
+                    </video>  
+            }   
             <Footer />
         </div>
     )
