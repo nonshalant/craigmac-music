@@ -83,6 +83,12 @@
     height: 350px;
 }
 
+.modal .close {
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 0;
+}
+
 @media only screen and (max-width: 600px) {
     .music-main {
         gap: 10px;
