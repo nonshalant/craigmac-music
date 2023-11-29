@@ -1,3 +1,9 @@
+footer {
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}
+
 .footer-container {
     background-color: rgb(7, 7, 7);
     padding: 1%;
@@ -21,5 +27,11 @@
         width: 100%;
         font-size: 1rem;
     }
-   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    footer {
+        width: 100%;
+        font-size: 1.5rem;
+    }
 }

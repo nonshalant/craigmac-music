@@ -40,7 +40,7 @@ header {
     width: 25%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     header {
         position: relative;
     }
@@ -77,7 +77,49 @@ header {
         width: 100%;
         padding: 2%;
         align-items: center;
+        justify-content: space-evenly;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        position: relative;
+    }
+    
+    .logo {
+        display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+        background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BhY2V8ZW58MHwwfDB8fHww')
+    }
+    
+    .nav-bar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+    }
+
+    .media {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        height: 20%;
+        z-index: 1;
+        width: 100%;
+        padding: 2%;
+        align-items: center;
+        justify-content: space-evenly;
         font-size: 2rem;
     }
 }
