@@ -113,19 +113,37 @@
     .section-one-content {
         margin-top: 4%;
     }
+
     .section-one-content-flex {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(1, 1fr);
         width: 100%;
-        gap: 20px;
         padding: 5%;
     }
 
-    .song-details {
-        flex-direction: column;
-        display: ;
+    .section-one-content h2 {
+        text-align: start;
+        margin-left: 4%;
+        font-size: larger;
     }
     
     .song-details img {
-        height: 150px;
+        height: 70px;
+    }
+
+    .section-one-content {
+        margin: 0;
+    }
+
+    .albums-container {
+        margin-bottom: 4%;
+    }
+
+    .larger {
+        flex-direction: column;
+    }
+
+    .larger img {
+        width: 250px;
+        height: 200px;
     }
 }
