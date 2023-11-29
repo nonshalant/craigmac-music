@@ -10,7 +10,6 @@ const Modal = ({songUrl, closeModal}) => {
         </span>
         <iframe 
             width="860" 
-            height="515" 
             src={songUrl}
             frameborder="0" 
             encryptedmedia
