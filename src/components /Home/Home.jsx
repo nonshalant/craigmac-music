@@ -12,7 +12,7 @@ const Home = () => {
         <div className='home-gif'>
             {
                 isMobile &&
-                    <video className='video' width='500vw' height='700vh' muted autoPlay loop>
+                    <video className='video' width='500vw' height='700vh' muted autoPlay playsinline loop>
                         <source src={video} type="video/mp4"></source>
                     </video> 
             }   

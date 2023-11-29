@@ -39,3 +39,27 @@ header {
     justify-content: space-evenly;    
     width: 25%;
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+    .media {
+        width: 100%;
+        font-size: 2.5rem;
+        justify-content: space-between;
+        padding: 1.6%;
+    }
+    .logo {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+    }
+
+}
