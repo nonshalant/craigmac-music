@@ -9,7 +9,8 @@ const Modal = ({songUrl, closeModal}) => {
         &times;
         </span>
         <iframe 
-            width="860" 
+            width="860"
+            height='500px' 
             src={songUrl}
             frameborder="0" 
             encryptedmedia
