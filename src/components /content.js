@@ -49,7 +49,7 @@ export const craigMacContent = {
                 thumbNail: 'https://res.cloudinary.com/dyzydm9nl/image/upload/v1701110200/craig%20mac/Screen_Shot_2023-11-27_at_1.31.46_PM_sldhjp.png',
                 title: 'B4L',
                 category: 'single',
-                url: "https://embed.music.apple.com/us/album/venom/1620276731?i=1620276732"
+                url: "https://embed.music.apple.com/us/album/b4l/1710918896?i=1710918898"
             }, 
             {
                 id: 9,

@@ -12,6 +12,10 @@
     gap: 80px;
 }
 
+.music-main img:hover {
+    cursor: pointer;
+}
+
 .music-image img {
     width: 80%;
     height: 330px;
