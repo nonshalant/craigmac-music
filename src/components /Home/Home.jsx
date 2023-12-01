@@ -13,9 +13,10 @@ const Home = () => {
         <div className='home-gif'>
             {
                 isMobile || isTablet ?
-                    <video className='video' width='100%' height='100%' objectfit='cover' muted autoPlay playsInline loop>
-                        <source src={video} type="video/mp4"></source>
-                    </video> 
+                    <video className='video' width='100%' height='100%' objectFit='cover' muted autoPlay playsInline loop>
+                    <source src={video} type="video/mp4"></source>
+              </video>
+              
                     :  
                     <>
                         <video className='video' width='100000' muted autoPlay loop>
